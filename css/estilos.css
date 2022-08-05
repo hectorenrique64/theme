@@ -1,0 +1,183 @@
+
+body{
+
+    font-family: 'Cinzel', serif !important;
+
+}
+
+
+@media (min-width:768px){
+    .barra.bg-dark{
+       background-color: rgba(14, 6, 6, 0.123) !important; 
+    }
+    .header{
+        position: relative;
+    }
+    .header .barra{
+        position: absolute;
+        z-index: 100;
+        width: 100%;
+    }
+
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    text-transform: uppercase;
+    font-size: .8rem;
+
+}
+
+
+.navbar-dark .navbar-nav .nav-link{
+    color: #ffffff !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color:rgba(255,255,255,.75) !important;
+}
+
+.dropdown-menu{
+    background-color: rgb(102, 95, 95) !important;
+}
+
+.dropdown-menu .dropdown-item{
+    color: #ffffff !important;
+    text-transform: uppercase;
+    font-size: .8rem;
+}
+
+.dropdown-menu .dropdown-item:hover{
+    background-color: rgb(68, 51, 51);
+}
+
+/*caption*/
+
+.carousel-caption p{
+    font-size: 1.5rem;
+}
+
+.carousel-caption h3{
+    font-size: 2rem;
+}
+
+.info  h5{
+font-size:1.6rem;
+}
+
+.info  p{
+    font-size: 1.5rem;
+}
+
+.btn-warning{
+    color:#ffffff !important;
+    font-weight: 700;
+}
+
+
+.ico{
+width:120px;
+
+}
+
+
+.sobre h3{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+
+.anuncios .card {
+margin-bottom: 2rem;
+}
+
+.card-precio{
+    font-size:1.8rem ;
+    color: rgb(12, 12, 160)
+}
+
+.card-descripcion img{
+    margin-right: 1rem;
+}
+
+.encuentra{
+    background-image: url(../img/img4.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.encuentra .row{
+    height: 24rem;
+}
+
+.encuentra h3{
+    font: bold;
+}
+
+.entrada img{
+    width: 300px;
+}
+
+.entrada h3::after{
+    content: "";
+    display: block;
+    width:10rem;
+    height: .1rem;
+    background-color: chartreuse;
+    margin-top: .2rem;
+}
+
+.meta span{
+    color:rgb(12, 12, 160);
+}
+
+.btn-success {
+    color:white !important;
+    text-transform: uppercase;
+    background-color: chartreuse !important;
+    font-weight: 700;
+}
+
+.btn-success:hover{
+    background-color: rgba(42, 143, 14, 0.932) !important;   
+}
+
+#mapid{
+    height: 180px;
+}
+
+.testimoniales{
+    background-color: rgb(125, 248, 2) !important;
+}
+
+.testimoniales .carousel-item {
+  padding-left: 2rem;
+}
+
+.testimoniales .testimonial-texto{
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+
+}
+.testimoniales .testimonial-texto::before{
+ content:open-quote;
+ font-size: 4rem;
+ position: absolute;
+ left: 0;
+ font-weight: 600;
+ top: 1rem;
+}
+
+.testimonial-texto span{
+font-weight: 300;
+
+}
+
+footer .nav-link {
+    color: #ffffff;;
+}
